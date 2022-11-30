@@ -17,10 +17,10 @@ const postsJSON = [
 ]
 
 // // OPTION 1
-// const postsJS = postsJSON.map((post) => JSON.parse(post))
+ const postsJS = postsJSON.map((post) => JSON.parse(post))
 
 // OPTION 2
-const postsJS = postsJSON.map(JSON.parse)
+//const postsJS = postsJSON.map(JSON.parse)
 
 // console.log(postsJSON)
 console.log(postsJS)
