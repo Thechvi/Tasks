@@ -14,7 +14,7 @@ const myObject = {
   key10: NaN,
 }
 
-for (let "key1" in myObject) { 
+for (let key1 in myObject) { 
 	console.log(myObject.key1),
 	console.log(myObject.key3)
 		
